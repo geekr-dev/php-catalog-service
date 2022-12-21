@@ -2,25 +2,25 @@
 
 namespace App\Services;
 
-use Ecommerce\Common\DTOs\Warehouse\InventoryData;
+use Ecommerce\Common\DTOs\Rating\ProductRatingData;
 use Illuminate\Support\Collection;
 
-class WarehouseService
+class RatingService
 {
     public function __construct(
         private readonly HttpClient $httpClient,
     ) {
     }
+
     public function getAvailableInventories(
         Collection $products
     ): Collection {
         return $this->httpClient
-            ->get('inventory/products', [
+            ->get('products/ratings', [
                 'productIds' => $products->pluck('id')->toArray()
             ])
             ->map(
-                fn (array $inventory) =>
-                new InventoryData(...$inventory)
+                fn (array $rating) => new ProductRatingData(...$rating)
             );
     }
 }
