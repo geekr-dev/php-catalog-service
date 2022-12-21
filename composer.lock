@@ -510,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/geekr-dev/php-ecommerce-common.git",
-                "reference": "ace62f6da8836ca414f51a4e3401eb54cc9f31c3"
+                "reference": "5bacafd977ffa0871a6ba7326b15f20da5795fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geekr-dev/php-ecommerce-common/zipball/ace62f6da8836ca414f51a4e3401eb54cc9f31c3",
-                "reference": "ace62f6da8836ca414f51a4e3401eb54cc9f31c3",
+                "url": "https://api.github.com/repos/geekr-dev/php-ecommerce-common/zipball/5bacafd977ffa0871a6ba7326b15f20da5795fa6",
+                "reference": "5bacafd977ffa0871a6ba7326b15f20da5795fa6",
                 "shasum": ""
             },
             "require": {
@@ -544,7 +544,7 @@
                 "issues": "https://github.com/geekr-dev/php-ecommerce-common/issues",
                 "source": "https://github.com/geekr-dev/php-ecommerce-common/tree/master"
             },
-            "time": "2022-12-19T04:46:01+00:00"
+            "time": "2022-12-21T06:02:32+00:00"
         },
         {
             "name": "graham-campbell/result-type",

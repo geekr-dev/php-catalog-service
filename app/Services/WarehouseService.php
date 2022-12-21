@@ -19,8 +19,7 @@ class WarehouseService
                 'productIds' => $products->pluck('id')->toArray()
             ])
             ->map(
-                fn (array $inventory) =>
-                new InventoryData(...$inventory)
+                fn (array $inventory) => new InventoryData(...$inventory)
             );
     }
 }

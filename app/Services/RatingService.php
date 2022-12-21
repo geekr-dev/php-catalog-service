@@ -12,7 +12,7 @@ class RatingService
     ) {
     }
 
-    public function getAvailableInventories(
+    public function getRatings(
         Collection $products
     ): Collection {
         return $this->httpClient
